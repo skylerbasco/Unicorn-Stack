@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- <link rel="icon" href="https://glitch.com/favicon.ico" /> -->
+    <title>Unicorn Stack</title>
+    <meta
+      name="description"
+      content="Unicorn Stack is a fun, easy-to-use platform that helps you build healthly financial habits."
+    />
+    <meta
+      property="og:description"
+      content="Unicorn Stack is a fun, easy-to-use platform that helps you build healthly financial habits."
+    />
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/script.js" defer></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  </head>
+  <body class=budget-body>
+    
+    <header class="container">
+      <div class="logo">
+        <div class="unicornstack-logo">
+          <a href="index.html"> <img src="https://cdn.glitch.me/fbf8be3d-36ad-4ed7-ac03-6edc3bed4833%2Funicornstack-logo.png?v=1636530113364" class="unicornstack-logo"> </a>
+        </div>          
+      </div>
+      <nav>
+        <ul>
+          <li><a href="why.html">About</a></li>
+          <li><a href="budget.html">Budget</a></li>
+          <li><a href="stocks.html">Stocks</a></li>
+          <li><a href="facts.html">Facts</a></li>
+          <li><a href="currency.html">Currency</a></li>
+          <li><a href="hustles.html">Hustles</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="container" align="center" id="budget-trackerwidth">
+    <h1>Budget Tracker</h1>
+    <form id="shopping-form"> 
+         <div class="row">
+            <div class="ten columns">
+                <label for="item">Enter the item here:</label>
+                                <br>  
+                <input id="item" placeholder="New Item">
+            </div>
+            <br>
+            <div class="two columns">
+                <label for="item">Enter its price here:</label>
+                                <br>  
+
+                <input id="amount" placeholder="$">
+            </div>
+        </div>
+      <br>
+        <div id="message"></div>
+    <input type='submit' value='Submit' id="submit-button" class="btn">
+     <table>
+        <tbody id="shopping-list">
+            <br>  
+        </tbody>
+        <tr>
+            <td class="nine columns"><str>Total Cost:</str></td>
+            <td class="total three columns"><str>$0.00</str></td>
+        </tr>
+    </table>
+</div>
+                  <br>  
+
+
+      <div class="button" align="center">
+        <a href="stocks.html" class="btn">I'm done. Ready for the next hack!</a>   
+      </div>  
+    
+  </body>
+</html>

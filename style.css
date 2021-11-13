@@ -1,0 +1,403 @@
+*, body {
+    font-family: 'Inter', sans-serif;
+  }
+
+html{
+    scroll-behavior: smooth;
+  }
+  
+html,body {
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+  }
+
+body.index-body{
+    background-image: url("https://cdn.glitch.me/fbf8be3d-36ad-4ed7-ac03-6edc3bed4833%2FMacBook%20Pro%20-%2011-3.png?v=1636700413374") !important;
+}
+
+body.budget-body{
+    background-image: url("https://cdn.glitch.me/fbf8be3d-36ad-4ed7-ac03-6edc3bed4833%2FMacBook%20Pro%20-%2011-3.png?v=1636700413374") !important;
+}
+
+body.why-body{
+  background-color: #EBFEFF !important;
+}
+
+body.stocks{
+    background-image: url("https://cdn.glitch.me/fbf8be3d-36ad-4ed7-ac03-6edc3bed4833%2FMacBook%20Pro%20-%2011-3.png?v=1636700413374") !important;
+}
+
+body.currency-body{
+    background-image: url("https://cdn.glitch.me/fbf8be3d-36ad-4ed7-ac03-6edc3bed4833%2FMacBook%20Pro%20-%2011-3.png?v=1636700413374") !important;
+}
+
+/* NAVIGATION BAR */
+
+.unicornstack-logo img {
+    width: 180px;
+  }
+
+.container {
+    margin: 0 auto;
+    padding: 1em 1em;
+     
+  }
+
+header {
+    text-align: center;
+    overflow: auto;
+    white-space: nowrap;
+    background-color: white;
+  }
+
+nav {
+    margin: 2em auto 0;
+    max-width: 750px;
+  }
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+
+nav ul li {
+    list-style: none;
+  }
+
+nav ul li a {
+    font-size: 17px !important;
+    font-weight: 400 !important;
+    text-decoration: none;
+    color: black !important;
+  }
+
+nav ul li a:hover {
+    font-size: 17px !important;
+    background: -webkit-linear-gradient(#C691FA, #63B1FE);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+  }
+
+main {
+    display: flex;
+    flex-flow: column-reverse;
+  }
+
+@media screen and (min-width: 820px) {
+  header {
+      display: flex;
+      justify-content: space-between;
+      flex-flow: wrap;
+      align-items: center;
+    }
+
+  nav {
+      margin: 0;
+    }
+
+  nav ul {
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+  nav ul li{
+      list-style: none;
+      padding: 0.5em 2em;
+    }
+
+  nav ul li a {
+      font-size: 1.375em;
+      color: #4c4c4c;
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+  main {
+      flex-flow: row;
+    }
+
+    
+  }
+
+   
+/* HOME */
+
+#magical-stack h1 {
+  font-size: 70px;
+       padding-top: 75px !important;
+     margin-bottom: 5px !important;
+}
+
+#magical-stack p {
+  font-size: 25px;
+  line-height: 40px;
+     margin-bottom: 35px;
+  font-weight: 400 !important;
+}
+
+
+
+#magical-stack{
+  width:48%;
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 18px;
+    margin-right: 10px;
+    padding:1rem 2rem;
+    border-radius: 20px;
+    font-size: 25px;
+    color:#ffffff;
+    cursor: pointer;
+    background-color: #638AEB;
+    text-decoration: none;
+
+}
+
+
+.btn:hover{
+    color:#ffffff;
+    background: -webkit-linear-gradient(#C691FA, #63B1FE);
+}
+
+.highlight-gradient {
+    background: -webkit-linear-gradient(#C691FA, #63B1FE);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+/* WHY */
+
+#why h1 {
+  font-size: 70px !important;
+     margin-bottom: 5px !important;
+}
+
+
+#why p {
+  font-size: 25px;
+  line-height: 40px;
+     margin-bottom: 35px;
+  font-weight: 400 !important;
+}
+
+
+#why{
+  width:75%;
+}
+
+
+
+
+/* BUDGET TRACKER */
+
+#budget-trackerwidth h1 {
+  font-size: 70px !important;
+     margin-bottom: 25px !important;
+}
+
+.error {
+    background-color: none;
+    color: #000;
+}
+
+.success {
+    color: #000;
+}
+
+#message {
+    text-align: center;
+    padding-top: 3px;
+    vertical-align: middle;
+}
+
+input {
+
+    padding: 10px 5px;
+    font-size: 1em;
+}
+
+#submit-button {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 18px;
+    margin-right: 10px;
+    padding:1rem 2rem;
+    border-radius: 20px;
+    font-size: 25px;
+    color:#ffffff;
+    cursor: pointer;
+    background-color: #638AEB;
+    text-decoration: none;
+    border: none;
+}
+
+.cost {
+    color: #638AEB;
+    font-weight: 800 !important;
+  
+}
+/* STOCK MARKET */
+
+
+#tv-medium-widget-57006, #tv-medium-widget-2532c , #tv-medium-widget-8a25c{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+#container-menu-void h1 {
+  font-size: 70px !important;
+  margin-bottom: 5px !important;
+}
+
+#container-menu-void h2 {
+  font-size: 50px !important;
+  font-weight: 500;
+}
+
+/* CURRENCY */
+
+#currency-header h1{
+  font-size: 70px !important;
+  width: 70%;
+  margin-bottom: 0px;
+}
+fieldset {
+  border: 0;
+  margin: 2rem 0;
+}
+
+fieldset legend {
+  font-weight: 700;
+}
+
+.answer__item {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    padding: 0.75rem 1.25rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: white;
+    color: black;
+    border: solid 1px black;
+    border-radius: 20px;
+}
+
+/* Hide Radio Buttons and Submit Button */
+input[type="radio"], button {
+  display: none;
+}
+
+/* Any correct answer on any answered question, highlight in light green */
+:valid .answer__item--is-correct { background-color: rgba(61, 181, 64, 0.6) }
+
+/* Show any extra explanatory text */
+.answer__reveal-text { display: none; }
+:valid .answer__reveal-text { display: block }
+
+/* Any chosen answer, highlight in red */
+:checked + .answer__item { color: #ffffff; background-color: #c70000 }
+
+/* Any correctly chosen answer, highlight in bright green */
+:checked + .answer__item--is-correct { background-color: #3db540; }
+
+/* Show the icon for the selected answer */
+:checked + .answer__item .answer__icon { display: inline-block }
+
+
+/* prevent chosing another answer once chosen */
+:valid { -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none }
+:valid + .answer__item { pointer-events: none }
+
+/* keep track of score */
+form { counter-reset: quiz-score }
+:checked + .answer__item--is-correct { counter-increment: quiz-score }
+.score:after { content: counter(quiz-score) "/" attr(data-question-count) }
+
+/* show score once quiz has been completed */
+.message { display: none; }
+form:valid .message { display: block }
+
+#currency-page p {
+  font-size: 25px;
+  line-height: 40px;
+  margin-bottom: 35px;
+  font-weight: 600 !important;
+  margin-top: 0px;
+}
+
+#main-currency{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+#ar-pic{
+  margin-bottom: 20px;
+}
+
+/* HUSTLES */
+
+
+.col-main {
+  flex: 1;  
+}  
+
+.col-complementary {
+  flex: 1;  
+}
+
+
+@media only screen and (min-width: 640px) {
+  .layout {
+    display: flex;
+  }
+}
+
+
+#hustle-container {
+  max-width: 60em;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.col {
+  padding: 1em;
+  margin-right: 30px;
+  margin-left: 30px;
+  background: white;
+  color: black;
+  border: solid 1px black;
+  border-radius: 10px;
+}
+
+/* FACTS */
+
+
+#facts-1{
+  display: flex;
+  justify-content: center;
+}
+
+#facts-header h1{
+  font-size: 70px !important;
+  width: 70%;
+  margin-bottom: 0px;
+}
+
+#facts-header h2{
+  font-size: 50px !important;
+  font-weight: 500;
+}
